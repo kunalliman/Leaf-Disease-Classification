@@ -13,7 +13,7 @@ This project aims to classify plant diseases using deep learning models. It util
    ```bash
     conda create -p venv python==3.8 -y
     ```
-2. Install the required dependencies using `requirements.txt`.
+2. Install the required dependencies using [`requirements.txt`](requirements.txt).
     ```bash
     pip install -r requirements.txt
     ```

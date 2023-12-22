@@ -14,14 +14,14 @@ This project aims to classify plant diseases using deep learning models. It util
     ```bash
     pip install -r requirements.txt
     ```
-- Refer to the presentation in the [PPT and Video](PPT_and_Video) folder for an overview of the project.
+- Refer to the presentation in the [PPT and Video](PPT and Video) folder for an overview of the project.
 - Follow the notebooks in the following sequence:
   - `Split_PlantVillage_Data.ipynb`: Split the dataset into train, test, and validation sets.
-  - [`EDA.ipynb`](EDA.ipynb): Explore the data distribution.
+  - [`EDA.ipynb`](notebook_files/EDA.ipynb): Explore the data distribution.
   - Model Training Notebooks:
-    - [`PepperLeaf_Model_Training.ipynb`](PepperLeaf_Model_Training.ipynb)
-    - [`PotatoLeaf_Model_Training.ipynb`](PotatoLeaf_Model_Training.ipynb)
-    - [`TomatoLeaf_Model_Training.ipynb`](TomatoLeaf_Model_Training.ipynb)
+    - [`PepperLeaf_Model_Training.ipynb`](notebook_files/PepperLeaf_Model_Training.ipynb)
+    - [`PotatoLeaf_Model_Training.ipynb`](notebook_files/PotatoLeaf_Model_Training.ipynb)
+    - [`TomatoLeaf_Model_Training.ipynb`](notebook_files/TomatoLeaf_Model_Training.ipynb)
 - Save the finalized models in the `saved_models` directory with naming conventions: `PepperLeaf_Model.h5`, `PotatoLeaf_Model.h5`, `TomatoLeaf_Model.h5`.
 
 ### User Interface

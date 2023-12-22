@@ -33,6 +33,17 @@ This project aims to classify plant diseases using deep learning models. It util
 - Resources folder includes the [`model_operations.py`](Resources/model_operations.py) module with necessary functions used in [`app.py`](app.py).
 - Test your code using [`test.py`](Resources/test.py) in Resources before running it in the app.
 
+<div style="display: flex; justify-content: space-between;">
+    <a href="https://youtu.be/pxD55ha6eMA">
+        <img src="PPT and Video/home_page.png" alt="User Interface Demo Video" width="400"/>
+    </a>
+    <a href="LINK_TO_SECOND_VIDEO">
+        <img src="PPT and Video/predictor_page.png" alt="Second Image" width="400"/>
+    </a>
+</div>
+
+
+
 ### Running the App
 - Activate conda environment `conda activate` with requirements installed already. 
 - Run the `python app.py` code in the terminal to start the web page. Access the app by copying the provided localhost link.

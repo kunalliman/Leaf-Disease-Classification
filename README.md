@@ -9,14 +9,19 @@ This project aims to classify plant diseases using deep learning models. It util
 - Extract the downloaded data to a folder named "PlantVillage".
 
 ### Prerequisites
-- Refer to the presentation in the "PPT and Video" folder for an overview of the project.
+1. Activate the base environment or create a virtual environment.
+2. Install the required dependencies using `requirements.txt`.
+    ```bash
+    pip install -r requirements.txt
+    ```
+- Refer to the presentation in the [PPT and Video](PPT_and_Video) folder for an overview of the project.
 - Follow the notebooks in the following sequence:
   - `Split_PlantVillage_Data.ipynb`: Split the dataset into train, test, and validation sets.
-  - `EDA.ipynb`: Explore the data distribution.
+  - [`EDA.ipynb`](EDA.ipynb): Explore the data distribution.
   - Model Training Notebooks:
-    - `PepperLeaf_Model_Training.ipynb`
-    - `PotatoLeaf_Model_Training.ipynb`
-    - `TomatoLeaf_Model_Training.ipynb`
+    - [`PepperLeaf_Model_Training.ipynb`](PepperLeaf_Model_Training.ipynb)
+    - [`PotatoLeaf_Model_Training.ipynb`](PotatoLeaf_Model_Training.ipynb)
+    - [`TomatoLeaf_Model_Training.ipynb`](TomatoLeaf_Model_Training.ipynb)
 - Save the finalized models in the `saved_models` directory with naming conventions: `PepperLeaf_Model.h5`, `PotatoLeaf_Model.h5`, `TomatoLeaf_Model.h5`.
 
 ### User Interface
@@ -25,11 +30,7 @@ This project aims to classify plant diseases using deep learning models. It util
 - Test your code using `test.py` in Resources before running it in the app.
 
 ### Running the App
-1. Activate the base environment or create a virtual environment.
-2. Install the required dependencies using `requirements.txt`.
-    ```bash
-    pip install -r requirements.txt
-    ```
+
 3. Run the `app.py` code in the terminal to start the web page. Access the app by copying the provided localhost link.
 
 ## Future Scope

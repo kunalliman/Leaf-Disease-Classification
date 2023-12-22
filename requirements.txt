@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+tensorflow
+numpy
+Pillow
+matplotlib
+scikit-learn
+split-folders
+# -e .

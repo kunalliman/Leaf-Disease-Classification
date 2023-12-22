@@ -1,4 +1,4 @@
-# Plant Disease Classification Project
+# Leaf Disease Classification Project
 
 This project aims to classify plant diseases using deep learning models. It utilizes the PlantVillage dataset from Kaggle to train models for identifying diseases in plant leaves.
 
@@ -14,24 +14,25 @@ This project aims to classify plant diseases using deep learning models. It util
     ```bash
     pip install -r requirements.txt
     ```
+### Model Training Steps
 - Refer to the presentation in the [PPT and Video](PPT and Video) folder for an overview of the project.
 - Follow the notebooks in the following sequence:
-  - `Split_PlantVillage_Data.ipynb`: Split the dataset into train, test, and validation sets.
+  - [`Split_PlantVillage_Data.ipynb`](Split_PlantVillage_Data.ipynb): Split the dataset into train, test, and validation sets.
   - [`EDA.ipynb`](notebook_files/EDA.ipynb): Explore the data distribution.
   - Model Training Notebooks:
     - [`PepperLeaf_Model_Training.ipynb`](notebook_files/PepperLeaf_Model_Training.ipynb)
     - [`PotatoLeaf_Model_Training.ipynb`](notebook_files/PotatoLeaf_Model_Training.ipynb)
     - [`TomatoLeaf_Model_Training.ipynb`](notebook_files/TomatoLeaf_Model_Training.ipynb)
-- Save the finalized models in the `saved_models` directory with naming conventions: `PepperLeaf_Model.h5`, `PotatoLeaf_Model.h5`, `TomatoLeaf_Model.h5`.
+- Save the finalized models in the `saved_models` directory with naming conventions: `PepperLeaf_Model.h5`, `PotatoLeaf_Model.h5`, `TomatoLeaf_Model.h5` in their respective plant folder.
 
 ### User Interface
 - The `ui` directory contains static and template folders for a user-friendly web interface of the app.
-- Resources folder includes the `model_operations.py` module with necessary functions used in `app.py`.
-- Test your code using `test.py` in Resources before running it in the app.
+- Resources folder includes the [`model_operations.py`](Resources/model_operations.py) module with necessary functions used in [`app.py`](app.py).
+- Test your code using [`test.py`](Resources/test.py) in Resources before running it in the app.
 
 ### Running the App
-
-3. Run the `app.py` code in the terminal to start the web page. Access the app by copying the provided localhost link.
+- Activate conda environment with requirements.
+- Run the `python app.py` code in the terminal to start the web page. Access the app by copying the provided localhost link.
 
 ## Future Scope
 - Explore alternative models beyond CNNs.

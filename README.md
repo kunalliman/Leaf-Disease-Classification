@@ -37,7 +37,7 @@ This project aims to classify plant diseases using deep learning models. It util
     <a href="https://youtu.be/pxD55ha6eMA">
         <img src="PPT and Video/home_page.png" alt="User Interface Demo Video" width="400"/>
     </a>
-    <a href="LINK_TO_SECOND_VIDEO">
+    <a href="https://youtu.be/pxD55ha6eMA">
         <img src="PPT and Video/predictor_page.png" alt="Second Image" width="400"/>
     </a>
 </div>

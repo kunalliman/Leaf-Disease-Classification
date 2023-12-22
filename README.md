@@ -10,6 +10,9 @@ This project aims to classify plant diseases using deep learning models. It util
 
 ### Prerequisites
 1. Activate the base environment or create a virtual environment.
+   ```bash
+    conda create -p venv python==3.8 -y
+    ```
 2. Install the required dependencies using `requirements.txt`.
     ```bash
     pip install -r requirements.txt
@@ -31,7 +34,7 @@ This project aims to classify plant diseases using deep learning models. It util
 - Test your code using [`test.py`](Resources/test.py) in Resources before running it in the app.
 
 ### Running the App
-- Activate conda environment with requirements.
+- Activate conda environment `conda activate` with requirements installed already. 
 - Run the `python app.py` code in the terminal to start the web page. Access the app by copying the provided localhost link.
 
 ## Future Scope
@@ -42,4 +45,4 @@ This project aims to classify plant diseases using deep learning models. It util
 
 ---
 
-This README file provides a step-by-step guide to setting up the project, running the code, and outlines future directions for the project's expansion and improvement. Adjust the instructions as needed and add any additional details or considerations specific to your project.
+This README file provides a step-by-step guide to setting up the project, running the code, and outlines future directions for the project's expansion and improvement.

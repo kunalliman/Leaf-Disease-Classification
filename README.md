@@ -33,6 +33,7 @@ This project aims to classify plant diseases using deep learning models. It util
 - Resources folder includes the [`model_operations.py`](Resources/model_operations.py) module with necessary functions used in [`app.py`](app.py).
 - Test your code using [`test.py`](Resources/test.py) in Resources before running it in the app.
 
+#### Click the User Interface image to see the Demo Video.
 <div style="display: flex; justify-content: space-between;">
     <a href="https://youtu.be/pxD55ha6eMA" target="_blank">
         <img src="PPT and Video/home_page.png" alt="User Interface Demo Video" width="400"/>
